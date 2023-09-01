@@ -102,7 +102,7 @@ const UserForm = (props) => {
                         name="firstname"
                         type="text"
                         value={firstname}
-                        onChange={ handleFirstname} />
+                        onChange={ handleFirstname } />
                         {
                     firstnameError ?
                     <p>{ firstnameError }</p> :
@@ -116,7 +116,7 @@ const UserForm = (props) => {
                         name="lastname"
                         type="text"
                         value={lastname}
-                        onChange={ handleLastname} />
+                        onChange={ handleLastname } />
                         {
                     lastnameError ?
                     <p>{ lastnameError }</p> :
@@ -129,7 +129,7 @@ const UserForm = (props) => {
                         name="email"
                         type="text"
                         value={email}
-                        onChange={ handleEmail} />
+                        onChange={ handleEmail } />
                         {
                     emailError ?
                     <p>{ emailError }</p> :
@@ -142,7 +142,7 @@ const UserForm = (props) => {
                         name="password"
                         type="text"
                         value={password}
-                        onChange={ handlePassword} />
+                        onChange={ handlePassword } />
                         {
                     passwordError ?
                     <p>{ passwordError }</p> :
@@ -154,8 +154,8 @@ const UserForm = (props) => {
                     <input
                         name="confirmPassword"
                         type="text"
-                        value={confirmPassword}
-                        onChange={ handleConfirmPassword} />
+                        value={confirmPassword }
+                        onChange={ handleConfirmPassword } />
                         {
                     confirmPasswordError ?
                     <p>{ confirmPasswordError }</p> :
